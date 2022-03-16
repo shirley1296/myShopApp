@@ -1,0 +1,22 @@
+{
+  "name": "myshopapp",
+  "version": "1.0.0",
+  "description": "My e-commarce App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirley1296/myShopApp.git"
+  },
+  "author": "Shirley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shirley1296/myShopApp/issues"
+  },
+  "homepage": "https://github.com/shirley1296/myShopApp#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
