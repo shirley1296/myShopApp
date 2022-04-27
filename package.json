@@ -1,7 +1,7 @@
 {
   "name": "myshopapp",
   "version": "1.0.0",
-  "description": "My e-commarce App",
+  "description": "My ecommerce app",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -14,24 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shirley1296/myShopApp.git"
+    "url": "git+https://github.com/shirley1296/myShopApp.git "
   },
-  "author": "Shirley",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shirley1296/myShopApp/issues"
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
   },
-  "homepage": "https://github.com/shirley1296/myShopApp#readme",
   "dependencies": {
     "axios": "^0.26.1",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-async-handler": "^1.2.0",
-    "mongoose": "^6.2.8"
-  },
-  "devDependencies": {
-    "concurrently": "^7.0.0",
-    "nodemon": "^2.0.15"
+    "mongoose": "^6.3.1"
   }
 }
